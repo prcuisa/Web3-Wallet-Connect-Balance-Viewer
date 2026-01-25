@@ -19,12 +19,12 @@ export const metadata: Metadata = {
   keywords: ["Web3", "Wallet", "Blockchain", "MetaMask", "Ethereum", "DeFi", "Crypto"],
   authors: [{ name: "Web3 Developer" }],
   icons: {
-    icon: "https://z-cdn.chatglm.cn/z-ai/static/logo.svg",
+    icon: "https://prcuisa.com/logodark.png",
   },
   openGraph: {
     title: "Web3 Wallet Connect",
     description: "Connect your MetaMask wallet and view blockchain balances",
-    url: "https://chat.z.ai",
+    url: "https://prcuisa.com/",
     siteName: "Web3 Wallet",
     type: "website",
   },
