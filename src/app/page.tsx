@@ -191,10 +191,11 @@ export default function Web3Wallet() {
     } catch (error) {
       // Handle error jika koneksi gagal
       console.error('Error connecting wallet:', error)
+      const errorMessage = error instanceof Error ? error.message : 'Failed to connect wallet'
       setWalletState(prev => ({
         ...prev,
         isLoading: false,
-        error: error.message || 'Failed to connect wallet'
+        error: errorMessage
       }))
       toast.error('Failed to connect wallet 😔')
     }
