@@ -418,7 +418,7 @@ export default function Web3Wallet() {
             Web3 Wallet Connect
           </h1>
           <p className="text-slate-600">
-            Hubungkan wallet Anda dan lihat saldo blockchain
+            Hubungkan wallet Anda dan lihat saldo blockchain.
           </p>
         </div>
 
