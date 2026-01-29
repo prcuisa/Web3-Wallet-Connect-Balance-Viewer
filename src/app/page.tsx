@@ -628,7 +628,7 @@ export default function Web3Wallet() {
           </CardContent>
         </Card>
 
-        {/* Info Card */}
+        {/* Info Card 
         <Card>
           <CardHeader>
             <CardTitle>Tentang Web3 Wallet</CardTitle>
@@ -654,6 +654,7 @@ export default function Web3Wallet() {
             </div>
           </CardContent>
         </Card>
+        */}
       </div>
     </div>
   )
